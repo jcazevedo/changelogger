@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'changelogger'
+
+path = ARGV[0] || Dir.pwd
+puts ChangeLogger.new(path).changelog
