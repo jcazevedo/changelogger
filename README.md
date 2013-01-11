@@ -2,11 +2,15 @@
 
 ChangeLogger is a simple [ChangeLog][1] generator from a git repository.
 
+## Requirements
+
+* [git][2]. Tested with 1.8.1
+
 ## Installation
 
 ### RubyGems
 
-Make sure you have [gem][1] installed, and just run:
+Make sure you have [gem][3] installed, and just run:
 
     gem install changelogger
 
@@ -30,5 +34,10 @@ If you want to save the output to a file, simply redirect the output:
 
     changelogger ~/work/changelogger > CHANGELOG
 
+## Copyright
+
+Copyright (c) 2012 Joao Azevedo. See LICENSE for details.
+
 [1]: http://en.wikipedia.org/wiki/Changelog
-[2]: http://rubygems.org/
+[2]: http://git-scm.com/
+[3]: http://rubygems.org/
