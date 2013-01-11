@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name         = "changelogger"
-  s.version      = "0.0.0"
+  s.version      = "0.0.1"
   s.date         = "2013-01-11"
   s.summary      = "ChangeLogger"
   s.description  = "A simple ChangeLog generator from a git repository."

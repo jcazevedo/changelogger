@@ -20,7 +20,7 @@ Clone this repo and build the gem:
 
     git clone git://github.com/jcazevedo/changelogger.git
     gem build changelogger.gemspec
-    gem install changelogger-0.0.0.gem
+    gem install changelogger-0.0.1.gem
 
 ## Usage
 
