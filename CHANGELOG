@@ -1,4 +1,9 @@
 
+v0.0.2
+  - 2013/01/12: Update to 0.0.2 to fix issue of gem with wrong homepage pushed to RubyGems. (Joao Azevedo)
+  - 2013/01/12: Update README. (Joao Azevedo)
+  - 2013/01/12: Update CHANGELOG. (Joao Azevedo)
+
 v0.0.1
   - 2013/01/12: Change gem homepage. (Joao Azevedo)
   - 2013/01/12: Add CHANGELOG. (Joao Azevedo)
