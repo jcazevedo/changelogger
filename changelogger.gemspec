@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files        = Dir["lib/**/*"]
   s.executables  << "changelogger"
 
-  s.homepage     = "http://rubygems.org/gems/configlogger"
+  s.homepage     = "http://github.com/jcazevedo/changelogger"
 
   s.add_dependency "grit", "~> 2.5.0"
 
