@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name         = "changelogger"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.license      = "MIT"
-  s.date         = "2013-01-11"
+  s.date         = "2013-01-14"
   s.summary      = "ChangeLogger"
   s.description  = "A simple ChangeLog generator from a git repository."
 
