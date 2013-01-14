@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 74536e0b2bf7de6fa1aaaebcfd9fbc175c93e0c1 Joao Azevedo <joao.c.azevedo@gmail.com> 1357945474 +0000	commit (initial): Initial commit.
+74536e0b2bf7de6fa1aaaebcfd9fbc175c93e0c1 c7cccfd55f4555c64cca700c794dfa6a82028dd8 Joao Azevedo <joao.c.azevedo@gmail.com> 1357945821 +0000	commit: Add LICENSE.
+c7cccfd55f4555c64cca700c794dfa6a82028dd8 24effcf1474f629e2c3fafacd7245039df685d3c Joao Azevedo <joao.c.azevedo@gmail.com> 1357946140 +0000	commit: Add README.
+24effcf1474f629e2c3fafacd7245039df685d3c 750d90858a4f64660a12d7fa315d5a3dcd08a329 Joao Azevedo <joao.c.azevedo@gmail.com> 1357946253 +0000	commit: Update README with requirements.
+750d90858a4f64660a12d7fa315d5a3dcd08a329 ac43535ca6bc680a9b61cc997130a4caa9fb2ce9 Joao Azevedo <joao.c.azevedo@gmail.com> 1357946291 +0000	commit: Update version to 0.0.1.
+ac43535ca6bc680a9b61cc997130a4caa9fb2ce9 638846ff1be3334f956d86ac962cb92e920dc0a2 Joao Azevedo <joao.c.azevedo@gmail.com> 1357951084 +0000	commit: Add CHANGELOG.
+638846ff1be3334f956d86ac962cb92e920dc0a2 48b3117ca5944915d5a67298d281f785baf5fb07 Joao Azevedo <joao.c.azevedo@gmail.com> 1357951412 +0000	commit: Change gem homepage.
+48b3117ca5944915d5a67298d281f785baf5fb07 2ed23bdb0e7bb0764dad3081cc2aa46b1d7787c9 Joao Azevedo <joao.c.azevedo@gmail.com> 1357951508 +0000	commit: Update CHANGELOG.
+2ed23bdb0e7bb0764dad3081cc2aa46b1d7787c9 dfaa12ad0a99b353a7dba20ffe8498fcecf0efec Joao Azevedo <joao.c.azevedo@gmail.com> 1357951768 +0000	commit: Update README.
+dfaa12ad0a99b353a7dba20ffe8498fcecf0efec fdacb0ae4b5f4fe932d9cf125a11558b37cbbb7b Joao Azevedo <joao.c.azevedo@gmail.com> 1357952256 +0000	commit: Update to 0.0.2 to fix issue of gem with wrong homepage pushed to RubyGems.
+fdacb0ae4b5f4fe932d9cf125a11558b37cbbb7b 436d1b7f5e5c8d243a5624eda036e5be88eace25 Joao Azevedo <joao.c.azevedo@gmail.com> 1357952327 +0000	commit (amend): Update to 0.0.2 to fix issue of gem with wrong homepage pushed to RubyGems.
+436d1b7f5e5c8d243a5624eda036e5be88eace25 45909a68c89cd2447274928a56766c7e87227f7d Joao Azevedo <joao.c.azevedo@gmail.com> 1358001966 +0000	commit: Change the interface and semantics a bit.
+45909a68c89cd2447274928a56766c7e87227f7d 7146997330412dbf66a2749c18973c82caf6691e Joao Azevedo <joao.c.azevedo@gmail.com> 1358161821 +0000	commit: Update copyright date.
+7146997330412dbf66a2749c18973c82caf6691e 3d2247ac6c6aee4abff016a8f7444d9279731e7a Joao Azevedo <joao.c.azevedo@gmail.com> 1358162891 +0000	commit: Update LICENSE date.
+3d2247ac6c6aee4abff016a8f7444d9279731e7a 3e65e6cdecaf962dc9c953223994114f888f2c38 Joao Azevedo <joao.c.azevedo@gmail.com> 1358183647 +0000	commit: Testing stuff.
+3e65e6cdecaf962dc9c953223994114f888f2c38 5239a7c2cafaae62fad2146e0fdf11dd7c68c4bd Joao Azevedo <joao.c.azevedo@gmail.com> 1358183681 +0000	commit: Enough testing.
+5239a7c2cafaae62fad2146e0fdf11dd7c68c4bd ca884b23622c59898e524af1a4a815cb7922fd7c Joao Azevedo <joao.c.azevedo@gmail.com> 1358200747 +0000	commit: Use branch in head instead of master by default.
+ca884b23622c59898e524af1a4a815cb7922fd7c dc1b1adbaebd26bdde525eff368efaf13f9c0bfe Joao Azevedo <joao.c.azevedo@gmail.com> 1358201351 +0000	commit: Update README to reflect the current version.
+dc1b1adbaebd26bdde525eff368efaf13f9c0bfe f29b6dcc257546dfba917bd96407953e16a7a066 Joao Azevedo <joao.c.azevedo@gmail.com> 1358201533 +0000	commit: Add LICENSE to gemspec.
+f29b6dcc257546dfba917bd96407953e16a7a066 fcde58bf33700d099bcd63342cd6048657f2843f Joao Azevedo <joao.c.azevedo@gmail.com> 1358201849 +0000	commit: Add 'is_bare' option to ChangeLogger constructor.
