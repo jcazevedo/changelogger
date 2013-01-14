@@ -1,6 +1,20 @@
 #!/usr/bin/env ruby
 
+require 'thor'
 require 'changelogger'
 
-path = ARGV[0] || Dir.pwd
-puts ChangeLogger.new(path).changelog
+class ChangeLoggerCLI < Thor
+  desc "changelog [DIR]", "outputs the changelog for the repository in [DIR] based on git tags"
+  long_desc <<-LONGDESC
+    Outputs the changelog for the git repository in the provided DIR or in the current working directory if nothing is specified for that parameter. The changelog is built by listing commits in the branch associated with the current repository head and splitting them according to the available tags.
+
+    Since the commit associated with the current repository head might not still be tagged, the --top_version option allows the provided string to be used as the top version in the changelog.
+  LONGDESC
+  option :top_version
+  def changelog(dir = nil)
+    path = dir || Dir.pwd
+    puts ChangeLogger.new(path).changelog(:top_version => options[:top_version])
+  end
+end
+
+ChangeLoggerCLI.start(ARGV)

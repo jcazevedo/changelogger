@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.homepage     = "http://github.com/jcazevedo/changelogger"
 
   s.add_dependency "grit", "~> 2.5.0"
+  s.add_dependency "thor", "~> 0.16.0"
 
   s.add_development_dependency "rake"
 end
