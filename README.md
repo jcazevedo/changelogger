@@ -20,19 +20,25 @@ Clone this repo and build the gem:
 
     $ git clone git://github.com/jcazevedo/changelogger.git
     $ gem build changelogger.gemspec
-    $ gem install changelogger-0.0.2.gem
+    $ gem install changelogger-0.0.3.gem
 
 ## Usage
 
 ChangeLogger publishes a `changelogger` binary which you can run inside a git
-repository, or pointing to a git repository through its first argument in order
-to produce a changelog to the stdout:
+repository, or pointing to a git repository through the first argument of its
+`changelog` task in order to produce a changelog to the stdout:
 
-    $ changelogger ~/work/changelogger
+    $ changelogger changelog ~/work/changelogger
 
 If you want to save the output to a file, simply redirect the output:
 
-    $ changelogger ~/work/changelogger > CHANGELOG
+    $ changelogger changelog ~/work/changelogger > CHANGELOG
+
+Since the top commit of the current HEAD of the repository might not yet be
+tagged, the `--top_version` option allows you to supply a string to be used as
+the top version of the ChangeLog:
+
+    $ changelogger changelog ~/work/changelogger --top_version v0.0.3
 
 ## Copyright
 
