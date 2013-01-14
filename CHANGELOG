@@ -1,4 +1,20 @@
 
+v0.0.3
+  - 2013/01/14: Update README for new version. (Joao Azevedo)
+  - 2013/01/14: Update to v0.0.3. (Joao Azevedo)
+  - 2013/01/14: Use thor to power the command-line interface. (Joao Azevedo)
+  - 2013/01/14: Add HeaderFormatter class and a top_version option. (Joao Azevedo)
+  - 2013/01/14: Add a test for the changelog method. (Joao Azevedo)
+  - 2013/01/14: Add 'is_bare' option to ChangeLogger constructor. (Joao Azevedo)
+  - 2013/01/14: Add LICENSE to gemspec. (Joao Azevedo)
+  - 2013/01/14: Update README to reflect the current version. (Joao Azevedo)
+  - 2013/01/14: Use branch in head instead of master by default. (Joao Azevedo)
+  - 2013/01/14: Enough testing. (Joao Azevedo)
+  - 2013/01/14: Testing stuff. (Joao Azevedo)
+  - 2013/01/14: Update LICENSE date. (Joao Azevedo)
+  - 2013/01/14: Update copyright date. (Joao Azevedo)
+  - 2013/01/12: Change the interface and semantics a bit. (Joao Azevedo)
+
 v0.0.2
   - 2013/01/12: Update to 0.0.2 to fix issue of gem with wrong homepage pushed to RubyGems. (Joao Azevedo)
   - 2013/01/12: Update README. (Joao Azevedo)
