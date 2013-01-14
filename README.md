@@ -36,7 +36,7 @@ If you want to save the output to a file, simply redirect the output:
 
 ## Copyright
 
-Copyright (c) 2012 Joao Azevedo. See LICENSE for details.
+Copyright (c) 2013 Joao Azevedo. See LICENSE for details.
 
 [1]: http://en.wikipedia.org/wiki/Changelog
 [2]: http://git-scm.com/
