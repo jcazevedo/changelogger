@@ -3,8 +3,8 @@ require 'changelogger/commit_formatter'
 require 'changelogger/commit_filter'
 
 class ChangeLogger
-  def initialize(repo_dir)
-    @repo = Grit::Repo.new(repo_dir)
+  def initialize(repo_dir, is_bare = false)
+    @repo = Grit::Repo.new(repo_dir, :is_bare => is_bare)
   end
 
   def changelog(formatter = CommitFormatter.new, filter = CommitFilter.new)
