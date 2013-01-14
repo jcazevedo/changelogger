@@ -24,8 +24,6 @@ Clone this repo and build the gem:
 
 ## Usage
 
-- [ ] Checkbox!
-
 ChangeLogger publishes a `changelogger` binary which you can run inside a git
 repository, or pointing to a git repository through its first argument in order
 to produce a changelog to the stdout:
